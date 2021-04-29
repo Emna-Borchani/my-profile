@@ -1,0 +1,42 @@
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+  background-color: white;
+   border-radius: 5% 4%;
+   border-style: double;
+    box-shadow: 5px 5px 5px rgba(black, 0.5)
+}
+
+h1, h2, h3 {
+  font-family: "Helvetica", sans-serif; /* if all headers use Helvetica */
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+#emna {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
+
